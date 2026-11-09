@@ -11,8 +11,9 @@
 # RMLMapper supported by RML-view-to-CSV in the KGCW Challenge 2025                    #
 ########################################################################################
 
-<https://raw.githubusercontent.com/elsdvlee/papers/main/2025/RMLMapper_supported_by_RML-view-to-CSV_in_the_KGCW_Challenge_2025.pdf>
+<https://ceur-ws.org/Vol-3999/short2.pdf>
     a schema:ScholarlyArticle;
+    schema:url <https://raw.githubusercontent.com/elsdvlee/papers/main/2025/RMLMapper_supported_by_RML-view-to-CSV_in_the_KGCW_Challenge_2025.pdf>;
     schema:name "RMLMapper supported by RML-view-to-CSV in the KGCW Challenge 2025";
     schema:datePublished "2025-07-19"^^xsd:date;
     schema:abstract "This paper presents the results of the Knowledge Graph Construction Workshop 2025 Challenge with RMLMapper, a reference in-memory Java implementation of the RML specification (RMLio) before RML was taken up by the W3C Knowledge Graph Construction Community Group (RMLkgc). We updated RMLMapper to translate R2RML and RMLio into the latest version of RMLkgc. We participated in the challenge for the modules RML-Core, RML-IO and RML-LV. RMLMapper largely supports RML-Core and RML-IO (90% and 65%). For RML-LV, we added RML-view-to-CSV as a first step to our knowledge graph construction pipeline to materialize RML logical views as CSV files. This way, RMLMapper largely supports RML-LV (81%). We currently cannot claim full coverage of the RMLkgc specification; however, this challenge enabled us to uncover the current gaps in our implementation and provide basic RMLkgc support in a mature Java implementation. Our continued participation in the community group will allow us to remain up to date with the latest developments in RMLkgc and further identify future implementation priorities for RMLMapper.";

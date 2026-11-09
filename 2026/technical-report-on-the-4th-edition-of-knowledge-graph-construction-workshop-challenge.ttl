@@ -10,8 +10,9 @@
 ##########################################################################################
 # Technical Report on the 4th Edition of Knowledge Graph Construction Workshop Challenge #
 ##########################################################################################
-<https://raw.githubusercontent.com/elsdvlee/papers/main/2026/Technical_Report_on_the_4th_Edition_of_Knowledge_Graph_Construction_Workshop_Challenge.pdf>
+<https://ceur-ws.org/Vol-4245/paper16.pdf>
     a schema:ScholarlyArticle;
+    schema:url <https://raw.githubusercontent.com/elsdvlee/papers/main/2026/Technical_Report_on_the_4th_Edition_of_Knowledge_Graph_Construction_Workshop_Challenge.pdf>;
     schema:name "Technical Report on the 4th Edition of Knowledge Graph Construction Workshop Challenge";
     schema:abstract
     """

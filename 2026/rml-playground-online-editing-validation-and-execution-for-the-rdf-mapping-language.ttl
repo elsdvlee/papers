@@ -12,8 +12,9 @@
 ##########################################################################################
 # RML Playground: Online Editing, Validation, and Execution for the RDF Mapping Language #
 ##########################################################################################
-<https://raw.githubusercontent.com/elsdvlee/papers/main/2026/RML_Playground_Online_Editing%2C_Validation%2C_and_Execution_for_the_RDF_Mapping_Language.pdf> # This resource is used in ./event-attendance/eswc2026$.jsonld
+<https://ceur-ws.org/Vol-4245/paper5.pdf> # This resource is used in ./event-attendance/eswc2026$.jsonld
     a schema:ScholarlyArticle;
+    schema:url <https://raw.githubusercontent.com/elsdvlee/papers/main/2026/RML_Playground_Online_Editing%2C_Validation%2C_and_Execution_for_the_RDF_Mapping_Language.pdf>;
     schema:name          "RML Playground: Online Editing, Validation, and Execution for the RDF Mapping Language" ;
     schema:abstract
     """
