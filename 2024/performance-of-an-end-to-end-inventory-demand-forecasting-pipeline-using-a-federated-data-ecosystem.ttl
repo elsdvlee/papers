@@ -10,8 +10,9 @@
 # Performance of an End-to-End Inventory Demand Forecasting Pipeline Using a Federated Data Ecosystem #
 ############################################################################################
 
-<https://raw.githubusercontent.com/elsdvlee/papers/main/2024/Performance_of-an_End_to_End_Inventory_Demand_Forcasting_Pipeline.pdf>
+<https://doi.org/10.3390/engproc2024068033>
     a schema:ScholarlyArticle;
+    schema:url <https://raw.githubusercontent.com/elsdvlee/papers/main/2024/Performance_of-an_End_to_End_Inventory_Demand_Forcasting_Pipeline.pdf>;
     schema:name "Performance of an End-to-End Inventory Demand Forecasting Pipeline Using a Federated Data Ecosystem";
     schema:abstract "One of the key challenges for fresh produce retailers is achieving optimal demand forecasting, as it plays a crucial role in operational decision-making and dampens the Bullwhip Effect. Improved forecasts hold the potential to achieve a balance between minimizing waste and avoiding shortages. Different retailers have partial views on the same products, which, when combined, can improve the forecasting of individual retailers' inventory demand. However, retailers are hesitant to share all their individual data. Therefore, we propose an end-to-end graph-based time series forecasting pipeline using a federated data ecosystem to predict inventory demand for supply chain retailers. Graph deep learning forecasting can comprehend intricate relationships and seamlessly tune into diverse, multi-retailer data in a federated setup. The system aims to create a unified data view without centralization, addressing technical and operational challenges. We test this pipeline using real-world data across large and small retailers, and discuss the performance obtained and how it can be further improved.";
     schema:datePublished "2024-07-10"^^<http://www.w3.org/2001/XMLSchema#date>;
