@@ -1,3 +1,4 @@
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema:   <http://schema.org/> .
 @prefix knows:    <https://data.knows.idlab.ugent.be/person/office/#> .
 @prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
@@ -13,6 +14,7 @@
 <https://raw.githubusercontent.com/elsdvlee/papers/main/2025/Miravi_-_a_Linked_Data_Viewer.pdf>
     a schema:ScholarlyArticle;
     schema:name "Miravi: A Linked Data Viewer";
+    schema:datePublished "2025-10-10"^^xsd:date;
     schema:abstract "One of the advantages of applying Linked Data practices is ease of decentralized data integration, which, however, is typically an advantage that happens at the backend of applications, and is rarely visible for an end-user. Moreover, we see a rise in applying Linked Data practices for permissioned data sharing, specifically in an industrial setting. To demonstrate the value of Linked Data practices in an industrial setting, we present Miravi: a Web application to manage SPARQL queries and visualize their results, integrating data over decentralized heterogeneous Linked Data sources, both openly accessible and permissioned. Stemming from and fulfilling the requirements identified within Horizon Europe project Onto-DESIDE, Miravi demonstrates how Linked Data practices, even for permissioned data publishing, allow for ease of decentralized data integration, combining mature and well-supported open-source tools such as Inrupt's Solid Client Authentication library, IDLab's Comunica, and Marmelab's React-Admin Web framework. Miravi is currently used as part of demonstrations for projects such as Onto-DESIDE and SecuWeb, and as a dedicated search interface for Digital Flanders' OSLO program (Open Standards for Linked Organizations). Being a use-case-independent client-side application that is fully configurable with a single configuration file, and under the open MIT license, Miravi allows for a lightweight setup, whilst relying on mature software libraries helps to increase its longevity. With Miravi, we will continue to more easily demonstrate the advantages of Linked Data practices.";
     schema:about <http://dbpedia.org/resource/Semantic_Web>;
     schema:author <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>, _:vanbrabant, <https://ben.de-meester.org/#me>, <https://pietercolpaert.be/#me>;

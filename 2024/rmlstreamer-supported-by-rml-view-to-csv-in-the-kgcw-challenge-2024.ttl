@@ -1,3 +1,4 @@
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema:   <http://schema.org/> .
 @prefix knows:    <https://data.knows.idlab.ugent.be/person/office/#> .
 @prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
@@ -13,6 +14,7 @@
 <https://raw.githubusercontent.com/elsdvlee/papers/main/2024/RMLStreamer_supported_by_RML-view-to-CSV_in_KGCW_Challenge_2024.pdf>
     a schema:ScholarlyArticle;
     schema:name "RMLStreamer supported by RML-view-to-CSV in the performance track of the KGCW Challenge 2024";
+    schema:datePublished "2024-07-03"^^xsd:date;
     schema:abstract "This paper presents the results of the performance track of the Knowledge Graph Construction Workshop 2024 Challenge with RMLStreamer, an RML mapping engine that processes all data in a streaming fashion. On mappings without joins, RMLStreamer scales well regarding execution time and CPU usage, while maintaining a constant memory usage. To optimize the processing of the joins, we added RML-view-to-CSV as a first step to our knowledge graph construction pipeline. RML-view-to-CSV is a proof-of-concept implementation for RML Logical Views, i.e. flattened, source format-agnostic views over one or more existing data sources. RML-view-to-CSV can additionally rewrite referencing object maps as logical views, before it materializes the logical views as CSV files. The combination of RML-view-to-CSV and RMLStreamer emerges as an efficient approach, showcasing the potential of modular mapping engines that delegate each task to the most suitable framework.";
     schema:about <http://dbpedia.org/resource/Semantic_Web>;
     schema:author <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>, <https://ben.de-meester.org/#me>;

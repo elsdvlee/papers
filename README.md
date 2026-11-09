@@ -10,7 +10,7 @@ Each PDF has a Turtle (`.ttl`) file with its metadata as Linked Data.
 
 [CEON: Circular Economy Ontology Network](2026/CEON_Circular_Economy_Ontology_Network.pdf)  
 Huanyu Li, **Els de Vleeschauwer**, Robin Keskisärkkä, Mikael Lindecrantz, Mina Abd Nikooie Pour, Ying Li, Ben De Meester, Patrick Lambrix, Eva Blomqvist  
-Presented at *[ISWC 2026](https://iswc2026.semanticweb.org/)*. ([arXiv:2606.02253](https://arxiv.org/abs/2606.02253))
+Published in *The Semantic Web – [ISWC 2026](https://iswc2026.semanticweb.org/)*, Lecture Notes in Computer Science, pp. 550–568. ([DOI: 10.1007/978-3-032-42026-8_26](https://doi.org/10.1007/978-3-032-42026-8_26), [arXiv:2606.02253](https://arxiv.org/abs/2606.02253))
 <details>
 <summary>bibtex</summary>
 
@@ -18,10 +18,15 @@ Presented at *[ISWC 2026](https://iswc2026.semanticweb.org/)*. ([arXiv:2606.0225
 @inproceedings{li2026ceon,
   author    = {Li, Huanyu and de Vleeschauwer, Els and Keskis{\"a}rkk{\"a}, Robin and Lindecrantz, Mikael and Abd Nikooie Pour, Mina and Li, Ying and De Meester, Ben and Lambrix, Patrick and Blomqvist, Eva},
   title     = {CEON: Circular Economy Ontology Network},
-  booktitle = {ISWC 2026: The International Semantic Web Conference},
+  booktitle = {The Semantic Web -- ISWC 2026},
+  series    = {Lecture Notes in Computer Science},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {550--568},
+  isbn      = {978-3-032-42026-8},
+  doi       = {10.1007/978-3-032-42026-8_26},
   eprint    = {2606.02253},
   archivePrefix = {arXiv},
-  url       = {https://arxiv.org/abs/2606.02253},
   year      = {2026}
 }
 ```
