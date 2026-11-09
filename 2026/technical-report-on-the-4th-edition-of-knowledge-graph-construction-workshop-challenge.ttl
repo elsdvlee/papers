@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix knows:    <https://data.knows.idlab.ugent.be/person/office/#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc:     <http://id.loc.gov/ontologies/bflc/> .
+@prefix vivo:     <http://vivoweb.org/ontology/core#> .
+
+@base <https://data.knows.idlab.ugent.be/person/office/publications.ttl#> .
+
+##########################################################################################
+# Technical Report on the 4th Edition of Knowledge Graph Construction Workshop Challenge #
+##########################################################################################
+<https://raw.githubusercontent.com/elsdvlee/papers/main/2026/Technical_Report_on_the_4th_Edition_of_Knowledge_Graph_Construction_Workshop_Challenge.pdf>
+    a schema:ScholarlyArticle;
+    schema:name "Technical Report on the 4th Edition of Knowledge Graph Construction Workshop Challenge";
+    schema:abstract
+    """
+    Knowledge graph (KG) construction has become an important research area, motivating the development of declarative mapping languages such as the RDF Mapping Language (RML). The fourth edition of the Knowledge Graph Construction Challenge, organized by the Knowledge Graph Construction Workshop (KGCW), evaluates the current state of KG creation engines through three complementary tracks: conformance, performance, and mapping methodology. The Conformance track assesses compliance with the latest RML specification across five modules that cover core RML functionality and its extensions. The Performance track evaluates execution time and memory consumption under different KG construction scenarios, including varying input sizes, duplicate rates, and join characteristics. The Mapping Methodology track encourages the exploration of alternative approaches to KG creation beyond traditional RML-based solutions. A total of five engines participated in the conformance track and three in the performance track. This paper presents the challenge design, participant submissions, and results across the different tracks, highlighting the current capabilities of the engines.
+    """;
+    schema:datePublished "2026-08-24"^^xsd:date;
+    schema:about <http://dbpedia.org/resource/Semantic_Web>;
+    schema:author _:sitt-min-oo, _:enrique-iglesias, _:jakub-duchateau, _:marco-grassi, _:pano-maria, <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>, _:adrian-martinez-balea, _:mario-scrocca, _:maria-esther-vidal;
+    bibframe:contribution <#kgcw26-ctb0>, <#kgcw26-ctb1>, <#kgcw26-ctb2>, <#kgcw26-ctb3>, <#kgcw26-ctb4>, <#kgcw26-ctb5>, <#kgcw26-ctb6>, <#kgcw26-ctb7>, <#kgcw26-ctb8>;
+    schema:contributor knows: .
+
+_:sitt-min-oo schema:name "Sitt Min Oo".
+_:enrique-iglesias schema:name "Enrique Iglesias".
+_:jakub-duchateau schema:name "Jakub Duchateau".
+_:marco-grassi schema:name "Marco Grassi".
+_:pano-maria schema:name "Pano Maria".
+_:adrian-martinez-balea schema:name "Adri\u00e1n Mart\u00ednez-Balea".
+_:mario-scrocca schema:name "Mario Scrocca".
+_:maria-esther-vidal schema:name "Maria-Esther Vidal".
+
+<#kgcw26-ctb0> a bibframe:Contribution, bflc:PrimaryContribution; bibframe:agent _:sitt-min-oo; vivo:rank 0.
+<#kgcw26-ctb1> a bibframe:Contribution; bibframe:agent _:enrique-iglesias; vivo:rank 1.
+<#kgcw26-ctb2> a bibframe:Contribution; bibframe:agent _:jakub-duchateau; vivo:rank 2.
+<#kgcw26-ctb3> a bibframe:Contribution; bibframe:agent _:marco-grassi; vivo:rank 3.
+<#kgcw26-ctb4> a bibframe:Contribution; bibframe:agent _:pano-maria; vivo:rank 4.
+<#kgcw26-ctb5> a bibframe:Contribution; bibframe:agent <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>; vivo:rank 5.
+<#kgcw26-ctb6> a bibframe:Contribution; bibframe:agent _:adrian-martinez-balea; vivo:rank 6.
+<#kgcw26-ctb7> a bibframe:Contribution; bibframe:agent _:mario-scrocca; vivo:rank 7.
+<#kgcw26-ctb8> a bibframe:Contribution; bibframe:agent _:maria-esther-vidal; vivo:rank 8.

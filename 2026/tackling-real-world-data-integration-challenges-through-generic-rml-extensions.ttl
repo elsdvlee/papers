@@ -1,0 +1,62 @@
+@prefix schema:   <http://schema.org/> .
+@prefix knows:    <https://data.knows.idlab.ugent.be/person/office/#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc:     <http://id.loc.gov/ontologies/bflc/> .
+@prefix vivo:     <http://vivoweb.org/ontology/core#> .
+@prefix dbo:      <http://dbpedia.org/ontology/> .
+
+@base <https://data.knows.idlab.ugent.be/person/office/publications.ttl#> .
+
+##########################################################################################
+# Tackling Real-World Data Integration Challenges through Generic RML Extensions         #
+##########################################################################################
+<https://raw.githubusercontent.com/elsdvlee/papers/main/2026/Tackling_Real-World_Data_Integration_Challenges_through_Generic_RML_Extensions.pdf> 
+    a schema:ScholarlyArticle;
+    schema:name          "Tackling Real-World Data Integration Challenges through Generic RML Extensions" ;
+    schema:abstract
+    """
+    To construct RDF Knowledge Graphs (KGs), heterogeneous
+    source data can be systematically transformed and published in downstream 
+    systems. Declarative mapping languages enable generic, transparent, and maintainable 
+    KG construction. However, real-world data systems require 
+    access control for different levels of granularity, 
+    apply data references across and within data sources, and apply deeply-nested
+    and mixed-format data structures. These realities cannot be handled in
+    current mapping languages, which hinders their broader adoption and
+    leads practitioners to rely on custom pipelines. This PhD research aims
+    to improve KG construction to support the aforementioned realities in
+    the RDF Mapping Language (RML), a mature declarative mapping language. 
+    Guided by the Design-oriented Information Systems Research
+    methodology, I identify functional gaps in RML (namely, data-driven
+    publication, explicit relations across and within data sources, integration 
+    of individual data values from other data sources, integration of
+    mixed-format data, and references to structural positions) while working 
+    on data integration projects, specify and implement RML extensions,
+    evaluate their effectiveness and efficiency, and disseminate them for feedback, 
+    adoption, and standardization. As preliminary findings I introduced 
+    (i) RML Dynamic Targets for data-driven publication in different
+    levels of granularity (e.g., per-entity or per-policy) and (ii) RML Reference 
+    Conditions to improve performance when referencing data across
+    data sources (e.g., decreasing external RML engine Morph-KGC’s execution 
+    time by 12%). I am currently elaborating RML Logical Views,
+    an expressive data access description, integrating data value integration,
+    mixed-format data structures, and structural position references. My involvement 
+    in the W3C KG Construction Community allows me to validate 
+    the proposed solutions with a broad set of real-world use cases, and
+    the integration of my solutions in an existing and mature specification
+    increases the impact of my work. An important risk in my research is
+    managing its scope, as each new use case may reveal additional gaps. I
+    will focus on the set of gaps identified so far as the minimal viable scope
+    required to meaningfully complete this PhD.
+    """;
+    schema:datePublished "2026-04-29"^^xsd:date;
+    schema:about  <http://dbpedia.org/resource/Semantic_Web> ;
+    schema:author <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>;
+    bibframe:contribution [
+      a bibframe:Contribution, bflc:PrimaryContribution;
+      bibframe:agent <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>;
+      vivo:rank 0
+    ];
+    schema:contributor knows: .

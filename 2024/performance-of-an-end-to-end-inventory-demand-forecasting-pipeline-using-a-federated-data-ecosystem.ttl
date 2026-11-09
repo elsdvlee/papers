@@ -1,0 +1,36 @@
+@prefix schema:   <http://schema.org/> .
+@prefix knows:    <https://data.knows.idlab.ugent.be/person/office/#> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc:     <http://id.loc.gov/ontologies/bflc/> .
+@prefix vivo:     <http://vivoweb.org/ontology/core#> .
+
+@base <https://data.knows.idlab.ugent.be/person/office/publications.ttl#> .
+
+############################################################################################
+# Performance of an End-to-End Inventory Demand Forecasting Pipeline Using a Federated Data Ecosystem #
+############################################################################################
+
+<https://raw.githubusercontent.com/elsdvlee/papers/main/2024/Performance_of-an_End_to_End_Inventory_Demand_Forcasting_Pipeline.pdf>
+    a schema:ScholarlyArticle;
+    schema:name "Performance of an End-to-End Inventory Demand Forecasting Pipeline Using a Federated Data Ecosystem";
+    schema:abstract "One of the key challenges for fresh produce retailers is achieving optimal demand forecasting, as it plays a crucial role in operational decision-making and dampens the Bullwhip Effect. Improved forecasts hold the potential to achieve a balance between minimizing waste and avoiding shortages. Different retailers have partial views on the same products, which, when combined, can improve the forecasting of individual retailers' inventory demand. However, retailers are hesitant to share all their individual data. Therefore, we propose an end-to-end graph-based time series forecasting pipeline using a federated data ecosystem to predict inventory demand for supply chain retailers. Graph deep learning forecasting can comprehend intricate relationships and seamlessly tune into diverse, multi-retailer data in a federated setup. The system aims to create a unified data view without centralization, addressing technical and operational challenges. We test this pipeline using real-world data across large and small retailers, and discuss the performance obtained and how it can be further improved.";
+    schema:datePublished "2024-07-10"^^<http://www.w3.org/2001/XMLSchema#date>;
+    schema:about <http://dbpedia.org/resource/Semantic_Web>;
+    schema:author _:moura, <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>, <https://data.knows.idlab.ugent.be/person/geraldh/#me>, <https://ben.de-meester.org/#me>, _:deer, _:deschepper, _:mercelis, _:mannens;
+    bibframe:contribution <#inventory-demand-ctb0>, <#inventory-demand-ctb1>, <#inventory-demand-ctb2>, <#inventory-demand-ctb3>, <#inventory-demand-ctb4>, <#inventory-demand-ctb5>, <#inventory-demand-ctb6>, <#inventory-demand-ctb7>;
+    schema:contributor knows: .
+
+_:moura schema:name "Henrique Duarte Moura".
+_:deer schema:name "Lynn D'eer".
+_:deschepper schema:name "Tom De Schepper".
+_:mercelis schema:name "Siegfried Mercelis".
+_:mannens schema:name "Erik Mannens".
+
+<#inventory-demand-ctb0> a bibframe:Contribution, bflc:PrimaryContribution; bibframe:agent _:moura; vivo:rank 0.
+<#inventory-demand-ctb1> a bibframe:Contribution; bibframe:agent <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>; vivo:rank 1.
+<#inventory-demand-ctb2> a bibframe:Contribution; bibframe:agent <https://data.knows.idlab.ugent.be/person/geraldh/#me>; vivo:rank 2.
+<#inventory-demand-ctb3> a bibframe:Contribution; bibframe:agent <https://ben.de-meester.org/#me>; vivo:rank 3.
+<#inventory-demand-ctb4> a bibframe:Contribution; bibframe:agent _:deer; vivo:rank 4.
+<#inventory-demand-ctb5> a bibframe:Contribution; bibframe:agent _:deschepper; vivo:rank 5.
+<#inventory-demand-ctb6> a bibframe:Contribution; bibframe:agent _:mercelis; vivo:rank 6.
+<#inventory-demand-ctb7> a bibframe:Contribution; bibframe:agent _:mannens; vivo:rank 7.

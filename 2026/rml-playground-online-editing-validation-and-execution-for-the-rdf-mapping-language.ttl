@@ -1,0 +1,63 @@
+@prefix schema:   <http://schema.org/> .
+@prefix knows:    <https://data.knows.idlab.ugent.be/person/office/#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc:     <http://id.loc.gov/ontologies/bflc/> .
+@prefix vivo:     <http://vivoweb.org/ontology/core#> .
+@prefix dbo:      <http://dbpedia.org/ontology/> .
+
+@base <https://data.knows.idlab.ugent.be/person/office/publications.ttl#> .
+
+##########################################################################################
+# RML Playground: Online Editing, Validation, and Execution for the RDF Mapping Language #
+##########################################################################################
+<https://raw.githubusercontent.com/elsdvlee/papers/main/2026/RML_Playground_Online_Editing%2C_Validation%2C_and_Execution_for_the_RDF_Mapping_Language.pdf> # This resource is used in ./event-attendance/eswc2026$.jsonld
+    a schema:ScholarlyArticle;
+    schema:name          "RML Playground: Online Editing, Validation, and Execution for the RDF Mapping Language" ;
+    schema:abstract
+    """
+    The RDF Mapping Language (RML) has seen various extensions over the years and was overhauled and modularized
+    by the W3C KGC Community Group. However, this variety of RML versions and varying feature support by
+    different mapping engines makes it hard for users to know how to create valid mapping rules. We demonstrate
+    RML Playground: a Web application that guides users to edit, validate, and execute mapping rules for configurable
+    RML versions and mapping engines. The RML Playground offers (i) a text editor with real-time RDF syntax and
+    SHACL shape validation and autocompletion, powered by the Semantic Web Language Server (SWLS); (ii) a
+    knowledge graph construction pipeline using a configurable mapping engine; and (iii) curated example mapping
+    rules illustrating the targeted RML version. RML Playground currently has two deployed instances, available at
+    https://w3id.org/imec/rml/playground : the latest KGC Community RML version with Burp as mapping engine,
+    and the RML.io-published RML version with RMLMapper as mapping engine. Completely automated using the
+    specifications’ ontology and shape descriptions, the RML Playground is easily extensible and maintainable to
+    new RML versions and extensions. Its use of the specifications’ documentation allows editors to validate their
+    correctness. The provision of meaningful hints during the editing process lowers the barrier for using the (new)
+    RML specifications and supports training and dissemination activities.
+    """;
+    schema:datePublished "2026-04-01"^^xsd:date;
+    schema:about         <http://dbpedia.org/resource/Semantic_Web> ;
+    schema:author
+    	<https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>,
+    	<https://data.knows.idlab.ugent.be/person/ajuvercr/#me>,
+    	<https://ben.de-meester.org/#me>,
+    	<https://pietercolpaert.be/#me>;
+    bibframe:contribution
+    	<#playground-eswc26-ctb0>,
+    	<#playground-eswc26-ctb1>,
+    	<#playground-eswc26-ctb2>,
+    	<#playground-eswc26-ctb3>;
+    schema:contributor knows: .
+
+<#playground-eswc26-ctb0> a bibframe:Contribution, bflc:PrimaryContribution;
+  bibframe:agent <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>;
+  vivo:rank 0.
+
+<#playground-eswc26-ctb1> a bibframe:Contribution, bflc:PrimaryContribution;
+  bibframe:agent <https://data.knows.idlab.ugent.be/person/ajuvercr/#me>;
+  vivo:rank 1.
+
+<#playground-eswc26-ctb2> a bibframe:Contribution, bflc:PrimaryContribution;
+  bibframe:agent <https://ben.de-meester.org/#me>;
+  vivo:rank 2.
+
+<#playground-eswc26-ctb3> a bibframe:Contribution, bflc:PrimaryContribution;
+  bibframe:agent <https://pietercolpaert.be/#me>;
+  vivo:rank 3.

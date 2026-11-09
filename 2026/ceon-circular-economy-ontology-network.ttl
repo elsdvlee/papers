@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix knows:    <https://data.knows.idlab.ugent.be/person/office/#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc:     <http://id.loc.gov/ontologies/bflc/> .
+@prefix vivo:     <http://vivoweb.org/ontology/core#> .
+
+@base <https://data.knows.idlab.ugent.be/person/office/publications.ttl#> .
+
+##########################################################################################
+# CEON: Circular Economy Ontology Network                                                 #
+##########################################################################################
+<https://raw.githubusercontent.com/elsdvlee/papers/main/2026/CEON_Circular_Economy_Ontology_Network.pdf>
+    a schema:ScholarlyArticle;
+    schema:name "CEON: Circular Economy Ontology Network";
+    schema:identifier "arXiv:2606.02253";
+    schema:url <https://arxiv.org/abs/2606.02253>;
+    schema:abstract
+    """
+    Increasing the circularity of resource use in our society has been recognized as a path to sustainability, i.e., transitioning into a more circular economy. There are many different circular strategies to do so, such as reusing products and components, refurbishing and remanufacturing used products, or recycling left-over or used materials. To enable these strategies, it is necessary to share information at the infrastructure level and to communicate between industry sectors along the product life cycle. Enabling semantic interoperability in this information sharing and communication is therefore a key to increasing circularity. However, knowledge representation for the circular economy (CE) domain, which involves many relevant industry sectors related to product life cycles, remains challenging. To bridge this gap, we developed the Circular Economy Ontology Network (CEON) within the Onto-DESIDE project. This ontology network aims to fill gaps in CE by defining cross-sectorial concepts and to enable semantics-aware data documentation. We demonstrate CEON through cross-industry data documentation scenarios spanning construction, electronics, and textile sectors.
+    """;
+    schema:about <http://dbpedia.org/resource/Circular_economy>;
+    schema:author _:huanyu-li, <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>, _:robin-keskisarkka, _:mikael-lindecrantz, _:mina-abd-nikooie-pour, _:ying-li, <https://ben.de-meester.org/#me>, _:patrick-lambrix, _:eva-blomqvist;
+    bibframe:contribution <#ceon-ctb0>, <#ceon-ctb1>, <#ceon-ctb2>, <#ceon-ctb3>, <#ceon-ctb4>, <#ceon-ctb5>, <#ceon-ctb6>, <#ceon-ctb7>, <#ceon-ctb8>;
+    schema:contributor knows: .
+
+_:huanyu-li schema:name "Huanyu Li".
+_:robin-keskisarkka schema:name "Robin Keskis\u00e4rkk\u00e4".
+_:mikael-lindecrantz schema:name "Mikael Lindecrantz".
+_:mina-abd-nikooie-pour schema:name "Mina Abd Nikooie Pour".
+_:ying-li schema:name "Ying Li".
+_:patrick-lambrix schema:name "Patrick Lambrix".
+_:eva-blomqvist schema:name "Eva Blomqvist".
+
+<#ceon-ctb0> a bibframe:Contribution, bflc:PrimaryContribution; bibframe:agent _:huanyu-li; vivo:rank 0.
+<#ceon-ctb1> a bibframe:Contribution; bibframe:agent <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>; vivo:rank 1.
+<#ceon-ctb2> a bibframe:Contribution; bibframe:agent _:robin-keskisarkka; vivo:rank 2.
+<#ceon-ctb3> a bibframe:Contribution; bibframe:agent _:mikael-lindecrantz; vivo:rank 3.
+<#ceon-ctb4> a bibframe:Contribution; bibframe:agent _:mina-abd-nikooie-pour; vivo:rank 4.
+<#ceon-ctb5> a bibframe:Contribution; bibframe:agent _:ying-li; vivo:rank 5.
+<#ceon-ctb6> a bibframe:Contribution; bibframe:agent <https://ben.de-meester.org/#me>; vivo:rank 6.
+<#ceon-ctb7> a bibframe:Contribution; bibframe:agent _:patrick-lambrix; vivo:rank 7.
+<#ceon-ctb8> a bibframe:Contribution; bibframe:agent _:eva-blomqvist; vivo:rank 8.
