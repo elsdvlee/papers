@@ -11,10 +11,11 @@
 # Privacy-Preserving Family Media Profiles in Decentralized Data Ecosystems              #
 ##########################################################################################
 
-<https://raw.githubusercontent.com/elsdvlee/papers/main/2026/Privacy_Preserving_Family_Media_Profiles_in_Decentralized_Data_Ecosystems.pdf>
+<https://doi.org/10.83095/ceurws_04322_007>
     a schema:ScholarlyArticle;
+    schema:url <https://raw.githubusercontent.com/elsdvlee/papers/main/2026/Privacy_Preserving_Family_Media_Profiles_in_Decentralized_Data_Ecosystems.pdf>;
     schema:name "Privacy-Preserving Family Media Profiles in Decentralized Data Ecosystems";
-    schema:datePublished "2026-10-25"^^xsd:date;
+    schema:datePublished "2026-11-09"^^xsd:date;
     schema:abstract "Decentralized data ecosystems (e.g., Solid, Linked Web Storage) allow users to retain control over their personal data while enabling data reuse across applications. However, additional mechanisms are required to create and share derived group-level data without granting consumers access to the underlying resources. This challenge arises in the Solid4Media family media profile use case, where family members want to benefit from a shared profile without exposing their individual media profiles to one another. In this paper, we present a privacy-preserving, transparent, interoperable, and reusable approach for aggregating decentralized data. We incorporate a third-party component on top of Solid pods: a provisioned aggregator. Following an open and implementation-independent aggregator specification, the aggregator is assigned its own identity and enables multiple data contributors to govern downstream access to an aggregated data resource without exposing the contributing source data. We validate this approach on the Solid4Media family media profile use case. Our demonstrator, available at http://w3id.org/imec/knows/solid4media, shows that a provisioned aggregator can generate and expose a shared family media profile while preserving access restrictions on the individual media profiles. This realization of the family pod use case demonstrates the feasibility of the provisioned aggregator, thus complementing the other aggregator types and the ongoing standardization efforts of the Linked Web Storage Working Group.";
     schema:about <http://dbpedia.org/resource/Semantic_Web>;
     schema:author <https://elsdvlee.pod.knows.idlab.ugent.be/profile/card#me>, <https://data.knows.idlab.ugent.be/person/maartenvdb/#me>, _:dahdah, <https://data.knows.idlab.ugent.be/person/pbonte/#me>, <https://data.knows.idlab.ugent.be/person/femkeongenae/#me>, <https://ben.de-meester.org/#me>, <https://pietercolpaert.be/#me>;
